@@ -28,7 +28,15 @@ fn main() {
 
         // trans guess from String to u32
         // trim(): eliminate any whitespace at the beginning and end (includ \r \n)
-        let guess: u32 = guess.trim().parse().expect("Please type a number!");
+        // Store result of parsing in a variable
+        let guess: u32 = match guess.trim().parse() {
+            Ok(num) => num,
+            Err(_) => {
+                println!("Please type a number!");
+                continue;
+            },
+        };
+
 
         println!("You guessed: {guess}");
 
