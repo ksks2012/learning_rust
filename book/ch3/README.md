@@ -6,3 +6,7 @@
 - botton_type
 - type_inference
 - generic_example2
+- Trait
+    - interface_abstraction
+    - add_for_new_type
+    - inherit_trait
