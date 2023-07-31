@@ -10,3 +10,6 @@
     - interface_abstraction
     - add_for_new_type
     - inherit_trait
+- generic bundle
+- abstract_type
+- impl_trait
