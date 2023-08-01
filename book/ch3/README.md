@@ -13,3 +13,4 @@
 - generic bundle
 - abstract_type
 - impl_trait
+- marker_trait
