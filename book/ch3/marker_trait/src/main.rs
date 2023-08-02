@@ -14,7 +14,7 @@ struct Bar<T: ?Sized>(T);
 // #[lang="copy"]
 // pub trait Copy: Clone {
 
-// }
+// }    
 
 // Clone trait standard implementation
 // pub trait Clone : Sized {
@@ -55,9 +55,9 @@ fn test_thread_move() {
 }
 
 // Note: Implent Send and Sync for all types
-unsafe imp Send for .. {}
-impl<T: ?Sized> !Send for *const T {}
-impl<T: ?Sized> !Send for *mut T {}
+// unsafe imp Send for .. {}
+// impl<T: ?Sized> !Send for *const T {}
+// impl<T: ?Sized> !Send for *mut T {}
 
 fn main() {
     // let a = "String".to_string();
