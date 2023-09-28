@@ -1,10 +1,8 @@
 # Rust Ch.2
 
-Last Edit Time: July 17, 2023 1:37 AM
+Last Edit Time: September 28, 2023 11:00 AM
 Tags: Rust, Tech Note
-
-# 目錄
-
+Status: 🌲
 # Cargo
 
 - create project
@@ -34,36 +32,39 @@ Tags: Rust, Tech Note
 
 # Basic
 
-## 作用域
+## Scopes
 
-- 靜態作用域 → Lexical Scope
-- 以大括號來開闢作用域
+- Static Scopes → Lexical Scope
+- Scoping with Parentheses
 
-## CTFE 機制
+## CTFE Mechanism
 
 - Compile Time Function Execution
-- EX: 陣列需要再編譯時得知長度 → 可使用函數回傳值
+- EX: The length of the array is known when it needs to be recompiled
+    
+    → the value can be returned using a function.
+    
 
-## 閉包
+## Closures
 
-- 匿名函數
-    - 可以像函數一樣被呼叫
-    - 可以捕捉上下文環境中的自由變數
-    - 可以自動推斷輸入和傳回的類型
+- Anonymous Function
+    - Can be called like functions
+    - Captures free variables in contextual environments
+    - Input and return types can be automatically inferred.
 
-## 流程控制運算式
+## Process Control Arithmetic
 
-## 基本型態
+## Basic type
 
 ### str
 
-- 可變
+- Mutable
     
     ```rust
     &str
     ```
     
-- 不可變
+- Immutable
     
     ```rust
     String
@@ -146,6 +147,6 @@ Tags: Rust, Tech Note
 
 # Reference
 
-[Rust 程式設計語言](https://rust-lang.tw/book-tw/title-page.html)
+[Rust Coding Language](https://rust-lang.tw/book-tw/title-page.html)
 
 [This Week in Rust 464 · This Week in Rust](https://this-week-in-rust.org/blog/2022/10/12/this-week-in-rust-464/)

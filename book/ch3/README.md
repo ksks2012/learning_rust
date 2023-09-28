@@ -20,8 +20,6 @@
 
 # Rust ch.3 Type System
 
-# 目錄
-
 # Intro
 
 - Fine-grained differentiation of information value
